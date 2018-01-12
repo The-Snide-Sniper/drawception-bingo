@@ -1,0 +1,16 @@
+table {
+  width: 100em;
+  heigth: 120em;
+}
+tr {
+  height: 20em;
+}
+td, th {
+  width: 20em;
+}
+td {
+  border: 1px solid black;
+}
+body {
+  text-align: center;
+}
