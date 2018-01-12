@@ -1,15 +1,14 @@
 table {
-  width: 100em;
-  heigth: 120em;
-}
-tr {
-  height: 20em;
+  width: 50em;
+  heigth: 60em;
 }
 td, th {
-  width: 20em;
+  width: 10em;
 }
 td {
   border: 1px solid black;
+  height: 10em;
+  margin: 5px;
 }
 body {
   text-align: center;

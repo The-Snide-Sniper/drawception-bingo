@@ -16,7 +16,7 @@
         for ($i = 0; $i < 5; $i++) {
           $row = array();
           for ($j = 0; $j < 5; $j++) {
-            array_push($row, array_splice($possible_tiles, rand(0, count($possible_tiles) - 1))[0], 1);
+            array_push($row, array_splice($possible_tiles, rand(0, count($possible_tiles) - 1), 1)[0]);
           }
           array_push($tiles, implode($row, "        </td>\n        <td>\n          "));
         }
