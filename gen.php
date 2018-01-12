@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./bingo.css" />
+    <title><?php echo htmlspecialchars($_GET['board']); ?> - Drawception Bingo</title>
+    <link rel="stylesheet" href="./<?php echo urlencode($_GET['board']) ?>/bingo.css" />
   </head>
   <body>
     <table>
@@ -11,7 +12,7 @@
       <tr>
         <td>
           <?php
-        $possible_tiles = file("./boards/" . $_GET['board'] . ".txt");
+        $possible_tiles = file("./boards/" . urlencode($_GET['board']) . "/tiles.txt");
         $tiles = array();
         for ($i = 0; $i < 5; $i++) {
           $row = array();
