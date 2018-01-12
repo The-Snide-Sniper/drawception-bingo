@@ -8,14 +8,13 @@ Prompt contains "free draw" or "use all 10 minutes"
 At least one panel by Death by Squeegee
 Artist of first drawing is level 60 or higher
 Least XP for any panel is 15 or more
-These ones I might reuse for other boards:
 One panel gets twice as many likes (bonus XP and base XP don't count) as any other panel
 One panel gets 4x as much XP (bonus XP and base XP count) as any other panel
 Prompt blatantly copies a previous top game in an attempt to reach top itself
 5+ panels that contain memes, 3+ unique memes throughout all panels
 Caption that earns more XP than the drawing they were captioning
 The prompt references a specific meme
-Some obnoxious meme that recently appeared on Drawception is in any panel
+Some obnoxious meme that recently appeared on Drawception is in <i>any</i> panel
 Captions go nowhere (PIO games don't count)
 Any theme other than the default is applied
 24-person game
